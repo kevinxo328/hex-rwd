@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.css">
+  <!-- 請安裝文件 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <title>六角西餐廳</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- 導覽列 -->
+    <div class="navbar position-fixed bg-black-75">
+      <div class="container d-flex justify-content-between align-items-center">
+        <h1 class="logo">
+          <a href="./index.html">
+            <img src="./img/logo_w(null).svg" alt="">
+          </a>
+        </h1>
+        <div class="menulist d-flex justify-content-end align-items-center">
+          <ul class="menu d-flex justify-content-between align-items-center">
+            <li><a href="#info" class="d-block p-3">特色</a></li>
+            <li><a href="#bio" class="d-block p-3">主廚</a></li>
+            <li><a href="#booking" class="d-block p-3">地圖</a></li>
+          </ul>
+          <a href="./cart.html" class=" active p-3">點餐去</a>
+          <a href="#" class="showmenu p-3"><i class="fas fa-bars text-white"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- banner -->
+    <div class="banner d-flex">
+      <div class="title bg-black-35 p-4 text-white text-center">
+        <h2 class="heading-title mb-3">咬一口<br>就無法忘懷的漢堡</h2>
+        <p>七夕絕對無法錯過的好滋味<br>
+          <i class="fas fa-utensils"></i>
+          六角大漢堡
+          <i class="fas fa-utensils"></i>
+        </p>
+      </div>
+    </div>
+    <!-- cart -->
+    <div class="cart container py-5">
+      <div class="row">
+        <!-- 側邊欄 -->
+        <div class="sidemenu col-lg-3 mb-4">
+          <h3><i class="fas fa-leaf pr-2 mb-3"></i>線上訂購美食</h3>
+          <ul>
+            <li><a href="" class="d-block p-2">全部 (23)</a></li>
+            <li><a href="" class="d-block p-2">只愛吃薯條 (18)</a></li>
+            <li><a href="" class="d-block p-2">加熱就可食 (1)</a></li>
+            <li><a href="" class="d-block p-2">不敗漢堡系列 (4)</a></li>
+          </ul>
+        </div>
+        <div class="main col-lg-9">
+          <div class="row">
+            <!-- 搜尋 -->
+            <div class=" search col-lg-8 d-flex justify-content-start mb-3">
+              <input type="text" name="search" id="" placeholder="找你想吃的" class="form-control">
+              <a class="btn btn-primary"><i class="fas fa-search"></i></a>
+            </div>
+            <!-- 結帳車 -->
+            <div class="pay col-lg-4 d-flex align-items-center justify-content-end mb-3">
+              <a href="./login.html" class="mr-3">結帳去</a>
+              <span class="line"></span>
+              <a href=""><i class="fas fa-shopping-cart mx-3 position-relative"><span class="position-absolute mark">1</span></i></a>
+            </div>
+          </div>
+          <!-- 卡片區 -->
+          <div class="food row text-center">
+            <div class="col-lg-4 mb-4  col-fixed">
+              <div class="card">
+                <img src="./img/product_1.png" alt="" class="card-img-top position-relative">
+                <i class="far fa-heart position-absolute"></i>
+                <!-- <i class="fas fa-heart"></i> -->
+                <div class="bandage-left position-absolute"></div>
+                <div class="bandage position-absolute"></div>
+                <div class="bandage-right position-absolute"></div>
+                <p class="bandage-title text-white position-absolute">熱銷美食</p>
+                <div class="card-body">
+                  <div class="card-title">經典漢堡套餐</div>
+                  <p class="card-subtitle">Classic Hamburger Package</p>
+                  <hr>
+                  <p class="price mb-2">$120</p>
+                  <a href="" class="btn btn-outline-orange btn-block"><i class="fas fa-shopping-cart mr-2"></i>加入購物車</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4 col-fixed">
+              <div class="card">
+                <img src="./img/product_2.png" alt="" class="card-img-top position-relative">
+                <i class="far fa-heart position-absolute"></i>
+                <!-- <i class="fas fa-heart"></i> -->
+                <div class="card-body">
+                  <div class="card-title">英俊香腸</div>
+                  <p class="card-subtitle">Handsome Sausage</p>
+                  <hr>
+                  <p class="price mb-2">$1,024</p>
+                  <a href="" class="btn btn-outline-orange btn-block"><i class="fas fa-shopping-cart mr-2"></i>加入購物車</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4 col-fixed">
+              <div class="card">
+                <img src="./img/product_3.png" alt="" class="card-img-top position-relative">
+                <i class="far fa-heart position-absolute"></i>
+                <!-- <i class="fas fa-heart"></i> -->
+                <div class="card-body">
+                  <div class="card-title">漢堡兄弟</div>
+                  <p class="card-subtitle">Hamburg Brothers</p>
+                  <hr>
+                  <p class="price mb-2">$792</p>
+                  <a href="" class="btn btn-outline-orange btn-block"><i class="fas fa-shopping-cart mr-2"></i>加入購物車</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4 col-fixed">
+              <div class="card">
+                <img src="./img/product_4.png" alt="" class="card-img-top position-relative">
+                <i class="far fa-heart position-absolute"></i>
+                <!-- <i class="fas fa-heart"></i> -->
+                <div class="card-body">
+                  <div class="card-title">完美願望</div>
+                  <p class="card-subtitle">Dragon Ball Package</p>
+                  <hr>
+                  <p class="price mb-2">$999,999</p>
+                  <a href="" class="btn btn-outline-orange btn-block"><i class="fas fa-shopping-cart mr-2"></i>加入購物車</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- footer -->
+    <div class="footer py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 about mb-3">
+            <h2>關於 六角西餐廳</h2>
+            <p>Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar
+              lobortis nibh lacinia at. </p>
+          </div>
+          <div class="col-md-4 contact mb-3">
+            <h2>聯絡方式</h2>
+            <ul>
+              <li>高雄市中正五路到底</li>
+              <li><a href="">+886 886 886</a></li>
+              <li><a href="">service@hexschool.com</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <a href="./index.html" class="clearfix"><img src="./img/logo_l@svg.svg" alt="" class="float-right mb-3"></a>
+            <div class="social text-right">
+              <a href=""><i class="fab fa-google-plus-square"></i></a>
+              <a href=""><i class="fab fa-twitter-square"></i></a>
+              <a href=""><i class="fab fa-facebook-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <script src="./js/all.js"></script>
+</body>
+
+</html>

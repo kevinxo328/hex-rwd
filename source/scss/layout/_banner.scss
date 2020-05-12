@@ -1,0 +1,27 @@
+.banner{
+  justify-content: center;
+  align-items: center;
+  background: url('../img/header_desktop.png') no-repeat center center;
+  height: 420px;
+  @include breakpoint-md{
+    background: url('../img/header_mobile.png') no-repeat center center;
+  }
+}
+
+.title{
+  max-width: 460px;
+  @include breakpoint-md{
+    padding: 15px;
+  } 
+  p{
+    white-space:nowrap; 
+  }
+  h2{
+    br{
+      display: none;
+      @include breakpoint-md{
+        display: block;
+      }
+    }
+  }
+}

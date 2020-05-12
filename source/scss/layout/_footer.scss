@@ -1,0 +1,20 @@
+.contact{
+  ul{
+    list-style: disc;
+    list-style-position: inside;
+  }
+}
+.social{
+  .fab{
+    font-size: $font-xxl;
+  }
+  .fa-google-plus-square{
+    color: #DB4437;
+  }
+  .fa-twitter-square{
+    color: #41ABE1;
+  }
+  .fa-facebook-square{
+    color: #3A5795;
+  }
+}

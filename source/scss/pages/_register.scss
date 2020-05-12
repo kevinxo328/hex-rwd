@@ -1,0 +1,18 @@
+.register{
+  input[type="email"], input[type="password"]{
+    padding-left: 2.2rem;
+  }
+  .envelope, .lock-1 { 
+    left: 13px;
+    top: 2rem;
+    color: $primary-50;
+  }
+  .lock-2 { 
+    left: 13px;
+    top: 4.2rem;
+    color: $primary-50;
+  }
+  a{
+    font-size: $font-sm;
+  }
+}

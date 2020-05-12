@@ -1,0 +1,94 @@
+.navbar{
+  max-width: 1024px;
+  width: 100%;
+  z-index: 1000;
+  .container{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.menulist{
+  a{
+    color: $white;
+    &:hover, &:active{
+      text-decoration: none;
+      background-color: $grey;
+    }
+  }
+}
+
+.menu{
+  @include breakpoint-md{
+    max-height: 0px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    flex-direction: column;
+    top: 56px;
+    left: 0;
+    right: 0;
+    transition: max-height 1.5s;
+    background-color: $black-75;
+    flex-grow: 1;
+  }
+  li{
+    @include breakpoint-md{
+      align-self: stretch;
+      display: block;
+    }
+  }
+}
+
+// .menu{
+//   @include breakpoint-md{
+//     max-height: 0px;
+//     overflow: hidden;
+//     position: absolute;
+//     top: 56px;
+//     left: 0;
+//     right: 0;
+//     transition: max-height 1.5s;
+//     background-color: $black-75;
+//   }
+//   li{
+//     display: inline-block;
+//     @include breakpoint-md{
+//       display: block;
+//       &:nth-child(1){
+//         border-bottom: 1px solid rgba($white, 0.5);
+//       }
+//       &:nth-child(2){
+//         border-bottom: 1px solid rgba($white, 0.5);
+//       }
+//     }
+//     a{
+//       line-height: 55px;
+//       @include hover{
+//         border-bottom: 3px solid $white;
+//         text-decoration: none;
+//         color: $white;
+//       }
+//     }
+//   }
+// }
+
+.active{
+  background-color: $link-color;
+}
+
+.showmenu{
+  display: none;
+  @include breakpoint-md{
+    display: block;
+    &:focus{
+      color: $white;
+    }
+  }
+}
+
+.menu-show .menu {
+  @include breakpoint-md {
+    max-height: 500px;
+  }
+}

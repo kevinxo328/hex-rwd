@@ -1,0 +1,21 @@
+{
+  "name": "rwd",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kevin Liu <kevinxo328@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "components-font-awesome": "^5.12.1"
+  }
+}

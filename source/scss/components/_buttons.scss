@@ -1,0 +1,67 @@
+.btn {
+  display: inline-block;
+  font-weight: $btn-font-weight;
+  font-size: $btn-font-size;
+  color: $white;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: $btn-border-radius;
+  padding: $btn-padding-y $btn-padding-x;
+  background-color: transparent;
+  outline: 0;
+  // transition: $btn-transition;
+  // user-select: none;
+  // border: $btn-border-width solid transparent;
+  // @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
+  @include hover{
+    color: $white;
+    text-decoration: none;
+  }
+  &:active{
+    box-shadow: $btn-active-box-shadow;
+  }
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-lg{
+  padding: $btn-padding-y-lg $btn-padding-x-lg;
+}
+
+.btn-orange{
+  background-color: $btn-orange;
+  @include hover{
+    background-color: darken($btn-orange, 10%);
+  }
+}
+
+.btn-grey{
+  background-color: $grey;
+  @include hover{
+    background-color: darken($grey, 10%);
+  }
+}
+
+.btn-primary{
+  background-color: $primary;
+  @include hover{
+    background-color: darken($primary, 10%);
+  }
+}
+
+.btn-outline-orange{
+  background-color: transparent;
+  border: 2px solid $link-color;
+  color: $link-color;
+  @include hover{
+    background-color: $link-color;
+  }
+  &:active{
+    background-color: darken($link-color, 10%);
+  }
+}
+

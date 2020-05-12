@@ -1,0 +1,43 @@
+{
+  "name": "rwd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "gulp-babel": "^8.0.0"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "autoprefixer": "^9.7.6",
+    "browser-sync": "^2.26.7",
+    "concat": "^1.0.3",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "main-bower-files": "^2.13.3",
+    "minimist": "^1.2.5",
+    "package-lock.json": "^1.0.0"
+  },
+  "browserslist": [
+    "last 5 version",
+    "> 5%"
+  ]
+}
