@@ -11,7 +11,9 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
-    "gulp-babel": "^8.0.0"
+    "clean-css": "^4.2.3",
+    "gulp-babel": "^8.0.0",
+    "lodash.template": "^4.5.0"
   },
   "dependencies": {
     "-": "0.0.1",
